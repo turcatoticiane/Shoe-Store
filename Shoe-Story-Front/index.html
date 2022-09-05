@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devs Shoe Store</title>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <h1>Shoes Store</h1>
+      </div>
+    </nav>
+
+    <div id="stock" class="container">
+      <table id="stock-table" class="table table-striped">
+        <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Shoe Name</th>
+          <th scope="col">Description</th>
+          <th scope="col">Amount</th>
+          <th scope="col">Quant in Stock</th>
+          <th scope="col">Edit Item</th>
+          <th scope="col">Delete Item</th>
+        </tr>
+      </table>
+    </div>
+
+    <form class="form">
+      <label for="shoename" class="form-label">Shoe Name</label>
+      <input type="text" class="form-control" id="shoename" aria-describedby="Shoe Name" />
+      <label for="description" class="form-label">Description</label>
+      <input type="text" class="form-control" id="description" aria-describedby="Shoe Description" />
+      <label for="amount" class="form-label">Amount</label>
+      <input type="text" class="form-control" id="amount" aria-describedby="Shoe Value" />
+      <label for="in_stock" class="form-label">Shoe Name</label>
+      <input type="text" class="form-control" id="in_stock" aria-describedby="Quantity in stock" />      
+      <button type="submit" class="btn btn-success" id="add">Add Item</button>
+      <button type="button" class="btn btn-warning" id="update">Update</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

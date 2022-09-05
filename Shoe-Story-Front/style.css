@@ -1,0 +1,18 @@
+.navbar{
+    justify-items: center;
+    background: purple;
+    color: aliceblue;
+}
+
+button {
+    background: azure;
+    color: purple;
+}
+
+#stock {
+    justify-content:space-around;
+}
+
+.table-striped {
+    background: rgb(255, 234, 255);
+}
